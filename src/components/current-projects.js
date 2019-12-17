@@ -1,41 +1,145 @@
 import React from "react";
+import styled from "styled-components";
+import { Github, View } from "grommet-icons";
+
+import stampd from "../assets/images/stampd.png";
+import project from "../assets/images/projectweek.png";
+import notes from "../assets/images/notes.png";
+import safe from "../assets/images/safespace.png";
+
+const Section = styled.section`
+  margin-top: -1.8%;
+  background-color: #2b343e;
+  color: #fbfbf8;
+  font-family: "Poppins", sans-serif;
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    padding-top: 2%;
+  }
+`;
+
+const CurrentOne = styled.div`
+  background-color: #2b343e;
+  display: flex;
+  flex-direction: row;
+
+  img {
+    width: 50%;
+    margin: 1.5%;
+  }
+
+  div {
+    width: 50%;
+    flex-direction: column;
+    margin: 1.5%;
+    color: #fbfbf8;
+    padding-top: 3%;
+  }
+`;
+const CurrentTwo = styled.div`
+  background-color: #2b343e;
+  display: flex;
+  flex-direction: row-reverse;
+
+  img {
+    width: 50%;
+    margin: 1.5%;
+  }
+
+  div {
+    width: 50%;
+    flex-direction: column;
+    margin: 1.5%;
+    color: #fbfbf8;
+    padding-top: 3%;
+  }
+`;
+
+// const Icons = styled.div`
+//   display: flex;
+//   flex-direction: row;
+//   margin: 1%;
+//   width: 100%;
+
+//   div {
+//     margin: 5%;
+//   }
+// `;
 
 function CurrentProjects() {
   return (
-    <section>
+    <Section>
       <h1>Current Projects</h1>
-      <div>
-        <h2>Stampd</h2>
-        <p>
-          Stampd allows you to keep track of your credentials. Your institution
-          will upload the credential where it will be held in the blockchain.
-          You can access your credential with your account and add multiple
-          email addresses that you may have your credentials under.
-        </p>
-      </div>
-      <div>
-        <h2>S&J Architects</h2>
-        <p>
-          A responsive modern architecture website Built with HTML, CSS and ES6
-          JavaScript
-        </p>
-      </div>
-      <div>
-        <h2>Notes</h2>
-        <p>
-          A place to keep notes and the ability to update and remove them Made
-          using React, Redux and Styled Components
-        </p>
-      </div>
-      <div>
-        <h2>Safe Space</h2>
-        <p>
-          Send yourself a positive text and brighten your day Built by a team of
-          five, my focus was on the backend Utilizing express node and twillio
-          for the messaging service
-        </p>
-      </div>
-    </section>
+      <CurrentOne>
+        <img src={stampd} alt="Stampd" />
+        <div>
+          <h2>Stampd</h2>
+          <p>
+            Stampd allows you to keep track of your credentials. Your
+            institution will upload the credential where it will be held in the
+            blockchain. You can access your credential with your account and add
+            multiple email addresses that you may have your credentials under.
+          </p>
+          <a href="https://github.com/labs14-stampd">
+            <Github />
+          </a>
+          <a href="https://www.stampdcert.com/">
+            <View />
+          </a>
+        </div>
+      </CurrentOne>
+      <CurrentTwo>
+        <img src={project} alt="S&J" />
+        <div>
+          <h2>S&J Architects</h2>
+          <p>
+            A responsive modern architecture website Built with HTML, CSS and
+            ES6 JavaScript
+          </p>
+          <a href="https://github.com/meganjeffcoat/User-Interface-Project-Week">
+            <Github />
+          </a>
+          <a href="https://distracted-brown-222a45.netlify.com/">
+            <View />
+          </a>
+        </div>
+      </CurrentTwo>
+      <CurrentOne>
+        <img src={notes} alt="Note" />
+        <div>
+          <h2>Notes</h2>
+          <p>
+            A place to keep notes and the ability to update and remove them Made
+            using React, Redux and Styled Components
+          </p>
+          <a href="https://github.com/meganjeffcoat/front-end-project-week">
+            <Github />
+          </a>
+          <a href="https://infallible-nightingale-04222d.netlify.com/">
+            <View />
+          </a>
+        </div>
+      </CurrentOne>
+      <CurrentTwo>
+        <img src={safe} alt="safe space" />
+        <div>
+          <h2>Safe Space</h2>
+          <p>
+            Send yourself a positive text and brighten your day Built by a team
+            of five, my focus was on the backend Utilizing express node and
+            twillio for the messaging service
+          </p>
+          <a href="https://github.com/safespaceteam/safespacebackend">
+            <Github />
+          </a>
+          <a href="https://safespaceteam.github.io/safespaceuim/#">
+            <View />
+          </a>
+        </div>
+      </CurrentTwo>
+    </Section>
   );
 }
 
