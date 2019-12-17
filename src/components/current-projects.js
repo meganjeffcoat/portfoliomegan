@@ -28,6 +28,7 @@ const CurrentOne = styled.div`
   img {
     width: 50%;
     margin: 1.5%;
+    height: 350px;
   }
 
   div {
@@ -46,6 +47,7 @@ const CurrentTwo = styled.div`
   img {
     width: 50%;
     margin: 1.5%;
+    height: 350px;
   }
 
   div {
