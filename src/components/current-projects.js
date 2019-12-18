@@ -25,6 +25,7 @@ const CurrentOne = styled.div`
   display: flex;
   flex-direction: row;
 
+
   img {
     width: 50%;
     margin: 1.5%;
@@ -93,7 +94,7 @@ function CurrentProjects() {
         </div>
       </CurrentOne>
       <CurrentTwo>
-        <img src={project} alt="S&J" />
+<img src={project} alt="S&J" />
         <div>
           <h2>S&J Architects</h2>
           <p>
