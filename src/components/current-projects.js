@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Github, View } from "grommet-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";

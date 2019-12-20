@@ -23,6 +23,8 @@ const Intro = styled.section`
   h2 {
     font-size: 1.6rem;
   }
+
+
 `;
 
 const Blocks = styled.div`
@@ -30,34 +32,44 @@ const Blocks = styled.div`
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
+  p{
+    padding: 1%;
+    margin: 11% 7% 4% 7%;
+  }
+
 `;
 
 const Block1 = styled.div`
   border: 1px solid #4d518e;
   background-color: #4d518e;
   width: 50%;
-  margin: 3%;
+  height: 300px;
+  margin: 3% 1.5%;
+  
 `;
 
 const Block2 = styled.div`
   border: 1px solid #4a4d89;
   background-color: #4a4d89;
   width: 50%;
-  margin: 3%;
+  height: 300px;
+  margin: 3% 1.5%;
 `;
 
 const Block3 = styled.div`
   border: 1px solid #484b85;
   background-color: #484b85;
   width: 50%;
-  margin: 3%;
+  height: 300px;
+  margin: 3% 1.5%;
 `;
 
 const Block4 = styled.div`
   border: 1px solid #444880;
   background-color: #444880;
   width: 50%;
-  margin: 3%;
+  height:300px;
+  margin: 3% 1.5%;
 `;
 
 function Skills() {
