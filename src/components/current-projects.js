@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Github, View } from "grommet-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
+
 
 import stampd from "../assets/images/stampd.png";
 import project from "../assets/images/projectweek.png";
@@ -8,7 +11,7 @@ import notes from "../assets/images/notes.png";
 import safe from "../assets/images/safespace.png";
 
 const Section = styled.section`
-  margin-top: -1.8%;
+  margin-top: -2%;
   background-color: #2b343e;
   color: #fbfbf8;
   font-family: "Poppins", sans-serif;
@@ -74,7 +77,7 @@ const CurrentTwo = styled.div`
 function CurrentProjects() {
   return (
     <Section>
-      <h1>Current Projects</h1>
+      <h1>Projects</h1>
       <CurrentOne>
         <img src={stampd} alt="Stampd" />
         <div>
@@ -86,10 +89,10 @@ function CurrentProjects() {
             multiple email addresses that you may have your credentials under.
           </p>
           <a href="https://github.com/labs14-stampd">
-            <Github />
-          </a>
+            <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
+          </a> {" "}
           <a href="https://www.stampdcert.com/">
-            <View />
+          <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
         </div>
       </CurrentOne>
@@ -102,10 +105,10 @@ function CurrentProjects() {
             ES6 JavaScript
           </p>
           <a href="https://github.com/meganjeffcoat/User-Interface-Project-Week">
-            <Github />
-          </a>
+            <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
+          </a> {" "}
           <a href="https://distracted-brown-222a45.netlify.com/">
-            <View />
+            <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
         </div>
       </CurrentTwo>
@@ -118,10 +121,10 @@ function CurrentProjects() {
             using React, Redux and Styled Components
           </p>
           <a href="https://github.com/meganjeffcoat/front-end-project-week">
-            <Github />
-          </a>
+            <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
+          </a> {" "}
           <a href="https://infallible-nightingale-04222d.netlify.com/">
-            <View />
+            <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
         </div>
       </CurrentOne>
@@ -135,10 +138,10 @@ function CurrentProjects() {
             twillio for the messaging service
           </p>
           <a href="https://github.com/safespaceteam/safespacebackend">
-            <Github />
-          </a>
+            <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
+          </a> {" "}
           <a href="https://safespaceteam.github.io/safespaceuim/#">
-            <View />
+            <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
         </div>
       </CurrentTwo>

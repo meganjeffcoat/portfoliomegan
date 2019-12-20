@@ -1,5 +1,13 @@
+
 .App {
   text-align: center;
+  background-image: url('./assets/images/code.jpg');
+  margin-top: -10%;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0;
 }
 
 .App-logo {
