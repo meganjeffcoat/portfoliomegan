@@ -1,4 +1,5 @@
 import React from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -7,10 +8,11 @@ import styled from "styled-components";
 import photo from "../assets/images/photo.jpg";
 
 const Container = styled.section`
-  width: 99.8%;
+  width: 99.9%;
   height: auto;
-  background-color: #313630 0.9;
+  background-color: #31363099;
   color: #fbfbf8;
+  padding-bottom: 5%;
 `;
 
 const Name = styled.div`
@@ -56,9 +58,10 @@ const Arrow = styled.div`
     margin-bottom: -0.2%;
   }
 
-  a{
+  .link {
     text-decoration: none;
     color: #fbfbf8;
+    padding-bottom: 3%;
   }
 `;
 
@@ -68,6 +71,7 @@ const About = styled.section`
   justify-content: space-around;
   background-color: #21b2a6;
   color: #fbfbf8;
+  margin-top: -5%;
 
   img {
     border-radius: 50%;
@@ -100,10 +104,10 @@ function Title() {
           </a>
         </Icons>
         <Arrow>
-          <a href='#about'>
+          <AnchorLink className='link' href='#about'>
             <p>Learn More</p>
             <FontAwesomeIcon icon={faArrowDown} color={"#fbfbf8"} />
-          </a>
+          </AnchorLink>
         </Arrow>
       </Container>
       <About id='about'>
