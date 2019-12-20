@@ -1,16 +1,18 @@
 import React from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
-
 import styled from "styled-components";
-// import title from "../assets/images/code.png";
+
+import photo from "../assets/images/photo.jpg";
 
 const Container = styled.section`
-  width: 99.8%;
+  width: 99.9%;
   height: auto;
-  background-color: #313630 0.9;
+  background-color: #31363099;
   color: #fbfbf8;
+  padding-bottom: 5%;
 `;
 
 const Name = styled.div`
@@ -39,47 +41,80 @@ const Name = styled.div`
 `;
 
 const Icons = styled.div`
-    width: 30%;
-    margin-top: -23%;
-    margin-left: 35%;
-    padding-bottom: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  width: 30%;
+  margin-top: -23%;
+  margin-left: 35%;
+  padding-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 `;
 
 const Arrow = styled.div`
   margin-top: -5%;
   margin-bottom: 5%;
 
-  p{
+  p {
     margin-bottom: -0.2%;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #fbfbf8;
+    padding-bottom: 3%;
   }
 `;
 
+const About = styled.section`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #21b2a6;
+  color: #fbfbf8;
+  margin-top: -5%;
+
+  img {
+    border-radius: 50%;
+    margin: 2%;
+  }
+
+  p {
+    margin-top: 5%;
+  }
+`;
+
+
 function Title() {
   return (
-    <Container>
-      <Name>
-        <h1>MEGAN JEFFCOAT</h1>
-        <p>FULL STACK WEB DEVELOPER</p>
-      </Name>
-      <Icons>
-        <a href="mailto:jeffcoat.megan@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope} color={"#fbfbf8"} size="3x" />
-        </a>
-        <a href="https://www.linkedin.com/in/megan-jeffcoat-b46b8287/">
-          <FontAwesomeIcon icon={faLinkedin} color={"#fbfbf8"} size="3x" />
-        </a>
-        <a href="https://twitter.com/_MeggieMae12">
-          <FontAwesomeIcon icon={faTwitter} color={"#fbfbf8"} size="3x" />
-        </a>
-      </Icons>
-      <Arrow>
-        <p>Learn More</p>
-        <FontAwesomeIcon icon={faArrowDown} color={"#fbfbf8"} />
-      </Arrow>
-    </Container>
+    <>
+      <Container>
+        <Name>
+          <h1>MEGAN JEFFCOAT</h1>
+          <p>FULL STACK WEB DEVELOPER</p>
+        </Name>
+        <Icons>
+          <a href="mailto:jeffcoat.megan@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} color={"#fbfbf8"} size="3x" />
+          </a>
+          <a href="https://www.linkedin.com/in/megan-jeffcoat-b46b8287/">
+            <FontAwesomeIcon icon={faLinkedin} color={"#fbfbf8"} size="3x" />
+          </a>
+          <a href="https://twitter.com/_MeggieMae12">
+            <FontAwesomeIcon icon={faTwitter} color={"#fbfbf8"} size="3x" />
+          </a>
+        </Icons>
+        <Arrow>
+          <AnchorLink className='link' href='#about'>
+            <p>Learn More</p>
+            <FontAwesomeIcon icon={faArrowDown} color={"#fbfbf8"} />
+          </AnchorLink>
+        </Arrow>
+      </Container>
+      <About id='about'>
+        <img src={photo} alt="Megan Jeffcoat" />
+        <p>I am a full stack web developer currently living in Killeen, TX. </p>
+      </About>
+    </>
   );
 }
 

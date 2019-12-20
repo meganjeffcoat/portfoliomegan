@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
-
 import stampd from "../assets/images/stampd.png";
 import project from "../assets/images/projectweek.png";
 import notes from "../assets/images/notes.png";
@@ -28,11 +27,15 @@ const CurrentOne = styled.div`
   display: flex;
   flex-direction: row;
 
-
-  img {
+  .visit {
     width: 50%;
     margin: 1.5%;
     height: 350px;
+
+    img {
+      width: 100%;
+      height: 350px;
+    }
   }
 
   div {
@@ -48,10 +51,15 @@ const CurrentTwo = styled.div`
   display: flex;
   flex-direction: row-reverse;
 
-  img {
+  .visit {
     width: 50%;
     margin: 1.5%;
     height: 350px;
+
+    img {
+      width: 100%;
+      height: 350px;
+    }
   }
 
   div {
@@ -79,7 +87,9 @@ function CurrentProjects() {
     <Section>
       <h1>Projects</h1>
       <CurrentOne>
-        <img src={stampd} alt="Stampd" />
+        <a className="visit" href="https://www.stampdcert.com/">
+          <img src={stampd} alt="Stampd" />
+        </a>
         <div>
           <h2>Stampd</h2>
           <p>
@@ -90,14 +100,19 @@ function CurrentProjects() {
           </p>
           <a href="https://github.com/labs14-stampd">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
-          </a> {" "}
+          </a>{" "}
           <a href="https://www.stampdcert.com/">
-          <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
+            <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
         </div>
       </CurrentOne>
       <CurrentTwo>
-<img src={project} alt="S&J" />
+        <a
+          className="visit"
+          href="https://distracted-brown-222a45.netlify.com/"
+        >
+          <img src={project} alt="S&J" />
+        </a>
         <div>
           <h2>S&J Architects</h2>
           <p>
@@ -106,14 +121,19 @@ function CurrentProjects() {
           </p>
           <a href="https://github.com/meganjeffcoat/User-Interface-Project-Week">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
-          </a> {" "}
+          </a>{" "}
           <a href="https://distracted-brown-222a45.netlify.com/">
             <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
         </div>
       </CurrentTwo>
       <CurrentOne>
-        <img src={notes} alt="Note" />
+        <a
+          className="visit"
+          href="https://infallible-nightingale-04222d.netlify.com/"
+        >
+          <img src={notes} alt="Note" />
+        </a>
         <div>
           <h2>Notes</h2>
           <p>
@@ -122,14 +142,20 @@ function CurrentProjects() {
           </p>
           <a href="https://github.com/meganjeffcoat/front-end-project-week">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
-          </a> {" "}
+          </a>{" "}
           <a href="https://infallible-nightingale-04222d.netlify.com/">
             <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
         </div>
       </CurrentOne>
       <CurrentTwo>
-        <img src={safe} alt="safe space" />
+        <a
+          className="visit"
+          href="https://safespaceteam.github.io/safespaceuim/#"
+        >
+          <img src={safe} alt="safe space" />
+        </a>
+
         <div>
           <h2>Safe Space</h2>
           <p>
@@ -139,7 +165,7 @@ function CurrentProjects() {
           </p>
           <a href="https://github.com/safespaceteam/safespacebackend">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
-          </a> {" "}
+          </a>{" "}
           <a href="https://safespaceteam.github.io/safespaceuim/#">
             <FontAwesomeIcon icon={faEye} color={"#fbfbf8"} size="2x" />
           </a>
