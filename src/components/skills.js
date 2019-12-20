@@ -44,7 +44,7 @@ const Block1 = styled.div`
   background-color: #4d518e;
   width: 50%;
   height: 300px;
-  margin: 3% 1.5%;
+  margin: 1.5% 1.5%;
   
 `;
 
@@ -53,7 +53,7 @@ const Block2 = styled.div`
   background-color: #4a4d89;
   width: 50%;
   height: 300px;
-  margin: 3% 1.5%;
+  margin: 1.5% 1.5%;
 `;
 
 const Block3 = styled.div`
@@ -61,7 +61,7 @@ const Block3 = styled.div`
   background-color: #484b85;
   width: 50%;
   height: 300px;
-  margin: 3% 1.5%;
+  margin: 1.5% 1.5%;
 `;
 
 const Block4 = styled.div`
@@ -69,7 +69,7 @@ const Block4 = styled.div`
   background-color: #444880;
   width: 50%;
   height:300px;
-  margin: 3% 1.5%;
+  margin: 1.5% 1.5%;
 `;
 
 function Skills() {
