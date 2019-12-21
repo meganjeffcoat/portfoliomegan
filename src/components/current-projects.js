@@ -20,6 +20,10 @@ const Section = styled.section`
     font-weight: 800;
     padding-top: 2%;
   }
+
+  @media (max-width: 500px) {
+    margin-top: -5%;
+  }
 `;
 
 const CurrentOne = styled.div`
@@ -56,7 +60,7 @@ const CurrentOne = styled.div`
 
     div {
       width: 100%;
-      margin: 0;
+      margin: 0 0 3% 0;
     }
   }
 `;
@@ -94,7 +98,7 @@ const CurrentTwo = styled.div`
 
     div {
       width: 100%;
-      margin: 0;
+      margin:0 0 3% 0;
     }
   }
 `;

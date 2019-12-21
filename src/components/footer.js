@@ -16,11 +16,19 @@ const Container = styled.section`
 `;
 
 const Icons = styled.div`
-width: 20%;
+  width: 20%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-left: 40%;
+
+  @media (max-width: 500px) {
+    width: 50%;
+    font-size: 1rem;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-bottom: 3%;
+  }
 `;
 
 function Footer() {
