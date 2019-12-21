@@ -110,6 +110,15 @@ const CurrentTwo = styled.div`
   }
 `;
 
+const Space = styled.div`
+  background-color: #2b343e;
+
+  @media (max-width: 500px) {
+    background-color: #21b2a6;
+    height: 10px;
+  }
+`;
+
 // const Icons = styled.div`
 //   display: flex;
 //   flex-direction: row;
@@ -145,6 +154,9 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentOne>
+      <Space>
+        {" "}
+      </Space>
       <CurrentTwo>
         <a
           className="visit"
@@ -166,6 +178,9 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentTwo>
+      <Space>
+        {" "}
+      </Space>
       <CurrentOne>
         <a
           className="visit"
@@ -187,6 +202,9 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentOne>
+      <Space>
+        {" "}
+      </Space>
       <CurrentTwo>
         <a
           className="visit"
@@ -210,6 +228,9 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentTwo>
+      <Space>
+        {" "}
+      </Space>
     </Section>
   );
 }
