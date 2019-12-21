@@ -45,6 +45,20 @@ const CurrentOne = styled.div`
     color: #fbfbf8;
     padding-top: 3%;
   }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+
+    .visit {
+      width: 100%;
+      margin: 0;
+    }
+
+    div {
+      width: 100%;
+      margin: 0;
+    }
+  }
 `;
 const CurrentTwo = styled.div`
   background-color: #2b343e;
@@ -68,6 +82,20 @@ const CurrentTwo = styled.div`
     margin: 1.5%;
     color: #fbfbf8;
     padding-top: 3%;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+
+    .visit {
+      width: 100%;
+      margin: 0;
+    }
+
+    div {
+      width: 100%;
+      margin: 0;
+    }
   }
 `;
 
