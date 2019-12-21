@@ -10,7 +10,7 @@ import photo from "../assets/images/photo.jpg";
 const Container = styled.section`
   width: 99.9%;
   height: auto;
-  background-color: #31363099;
+  background-color: #31363073;
   color: #fbfbf8;
   padding-bottom: 5%;
 `;
@@ -38,6 +38,17 @@ const Name = styled.div`
     font-size: 1.2rem;
     font-weight: 800;
   }
+
+  @media (max-width: 500px) {
+    h1 {
+      width: 100%;
+      margin-left: 0;
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
 `;
 
 const Icons = styled.div`
@@ -48,6 +59,12 @@ const Icons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (max-width: 500px) {
+    .icon {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 const Arrow = styled.div`
@@ -94,13 +111,13 @@ function Title() {
         </Name>
         <Icons>
           <a href="mailto:jeffcoat.megan@gmail.com">
-            <FontAwesomeIcon icon={faEnvelope} color={"#fbfbf8"} size="3x" />
+            <FontAwesomeIcon className="icon" icon={faEnvelope} color={"#fbfbf8"} size="3x" />
           </a>
           <a href="https://www.linkedin.com/in/megan-jeffcoat-b46b8287/">
-            <FontAwesomeIcon icon={faLinkedin} color={"#fbfbf8"} size="3x" />
+            <FontAwesomeIcon className="icon" icon={faLinkedin} color={"#fbfbf8"} size="3x" />
           </a>
           <a href="https://twitter.com/_MeggieMae12">
-            <FontAwesomeIcon icon={faTwitter} color={"#fbfbf8"} size="3x" />
+            <FontAwesomeIcon className="icon" icon={faTwitter} color={"#fbfbf8"} size="3x" />
           </a>
         </Icons>
         <Arrow>
