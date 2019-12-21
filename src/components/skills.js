@@ -41,6 +41,10 @@ const Blocks = styled.div`
 
   @media (max-width: 500px) {
     flex-direction: column;
+
+    p {
+      margin: 3%;
+    }
   }
 `;
 
@@ -53,6 +57,7 @@ const Block1 = styled.div`
 
   @media (max-width: 500px) {
     width: 99.5%;
+    height: 200px;
     margin: 0;
   }
 `;
@@ -66,6 +71,7 @@ const Block2 = styled.div`
 
   @media (max-width: 500px) {
     width: 99.5%;
+    height: 200px;
     margin: 0;
   }
 `;
@@ -79,6 +85,7 @@ const Block3 = styled.div`
 
   @media (max-width: 500px) {
     width: 99.5%;
+    height: 200px;
     margin: 0;
   }
 `;
@@ -92,6 +99,7 @@ const Block4 = styled.div`
 
   @media (max-width: 500px) {
     width: 99.5%;
+    height: 200px;
     margin: 0;
   }
 `;

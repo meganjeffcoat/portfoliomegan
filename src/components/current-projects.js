@@ -60,7 +60,10 @@ const CurrentOne = styled.div`
 
     div {
       width: 100%;
-      margin: 0 0 3% 0;
+      margin: 0 0 5% 0;
+    }
+    p {
+      margin: 0 1.5% 1.5% 1.5%;
     }
   }
 `;
@@ -98,7 +101,11 @@ const CurrentTwo = styled.div`
 
     div {
       width: 100%;
-      margin:0 0 3% 0;
+      margin:0 0 5% 0;
+    }
+
+    p {
+      margin: 0 1.5% 1.5% 1.5%;
     }
   }
 `;
