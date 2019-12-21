@@ -20,6 +20,10 @@ const Section = styled.section`
     font-weight: 800;
     padding-top: 2%;
   }
+
+  @media (max-width: 500px) {
+    margin-top: -5%;
+  }
 `;
 
 const CurrentOne = styled.div`
@@ -45,6 +49,23 @@ const CurrentOne = styled.div`
     color: #fbfbf8;
     padding-top: 3%;
   }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+
+    .visit {
+      width: 100%;
+      margin: 0;
+    }
+
+    div {
+      width: 100%;
+      margin: 0 0 5% 0;
+    }
+    p {
+      margin: 0 1.5% 1.5% 1.5%;
+    }
+  }
 `;
 const CurrentTwo = styled.div`
   background-color: #2b343e;
@@ -68,6 +89,24 @@ const CurrentTwo = styled.div`
     margin: 1.5%;
     color: #fbfbf8;
     padding-top: 3%;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+
+    .visit {
+      width: 100%;
+      margin: 0;
+    }
+
+    div {
+      width: 100%;
+      margin:0 0 5% 0;
+    }
+
+    p {
+      margin: 0 1.5% 1.5% 1.5%;
+    }
   }
 `;
 

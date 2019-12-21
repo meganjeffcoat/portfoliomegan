@@ -8,6 +8,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 0;
+
+}
+
+@media (max-width: 500px) {
+  .App {
+    margin-top: -20%;
+  }
 }
 
 .App-logo {
