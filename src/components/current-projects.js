@@ -55,6 +55,7 @@ const CurrentOne = styled.div`
 
     .visit {
       width: 100%;
+      height: 250px;
       margin: 0;
     }
 
@@ -96,6 +97,7 @@ const CurrentTwo = styled.div`
 
     .visit {
       width: 100%;
+      height: 250px;
       margin: 0;
     }
 
