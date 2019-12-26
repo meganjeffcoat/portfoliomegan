@@ -23,6 +23,10 @@ const Section = styled.section`
 
   @media (max-width: 500px) {
     margin-top: -5%;
+
+    h1 {
+      padding-top: none;
+    }
   }
 `;
 
@@ -57,11 +61,17 @@ const CurrentOne = styled.div`
       width: 100%;
       height: 250px;
       margin: 0;
+
+      img {
+        width: 100%;
+        height: 250px;
+      }
     }
 
     div {
       width: 100%;
       margin: 0 0 5% 0;
+      padding-top: 1%;
     }
     p {
       margin: 0 1.5% 1.5% 1.5%;
@@ -99,6 +109,11 @@ const CurrentTwo = styled.div`
       width: 100%;
       height: 250px;
       margin: 0;
+
+      img {
+        width: 100%;
+        height: 250px;
+      }
     }
 
     div {
