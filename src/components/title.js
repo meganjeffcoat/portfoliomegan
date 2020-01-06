@@ -1,5 +1,5 @@
 import React from "react";
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -85,21 +85,34 @@ const Arrow = styled.div`
 const About = styled.section`
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   background-color: #21b2a6;
   color: #fbfbf8;
   margin-top: -5%;
 
+
   img {
     border-radius: 50%;
-    margin: 2%;
+    margin: 2% 2.5% 2% 10%;
   }
 
   p {
-    margin-top: 5%;
+    margin: 2% 10% 2% 2.5%;
+  }
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+
+    img {
+      margin: 3% 4% 2.5% 4%;
+    }
+
+    p {
+      margin: 2.5% 4% 3% 4%;
+    }
   }
 `;
-
 
 function Title() {
   return (
@@ -111,25 +124,46 @@ function Title() {
         </Name>
         <Icons>
           <a href="mailto:jeffcoat.megan@gmail.com">
-            <FontAwesomeIcon className="icon" icon={faEnvelope} color={"#fbfbf8"} size="3x" />
+            <FontAwesomeIcon
+              className="icon"
+              icon={faEnvelope}
+              color={"#fbfbf8"}
+              size="3x"
+            />
           </a>
           <a href="https://www.linkedin.com/in/megan-jeffcoat-b46b8287/">
-            <FontAwesomeIcon className="icon" icon={faLinkedin} color={"#fbfbf8"} size="3x" />
+            <FontAwesomeIcon
+              className="icon"
+              icon={faLinkedin}
+              color={"#fbfbf8"}
+              size="3x"
+            />
           </a>
           <a href="https://twitter.com/_MeggieMae12">
-            <FontAwesomeIcon className="icon" icon={faTwitter} color={"#fbfbf8"} size="3x" />
+            <FontAwesomeIcon
+              className="icon"
+              icon={faTwitter}
+              color={"#fbfbf8"}
+              size="3x"
+            />
           </a>
         </Icons>
         <Arrow>
-          <AnchorLink className='link' href='#about'>
+          <AnchorLink className="link" href="#about">
             <p>Learn More</p>
             <FontAwesomeIcon icon={faArrowDown} color={"#fbfbf8"} />
           </AnchorLink>
         </Arrow>
       </Container>
-      <About id='about'>
+      <About id="about">
         <img src={photo} alt="Megan Jeffcoat" />
-        <p>I am a full stack web developer currently living in Killeen, TX. </p>
+        <p>
+          Full stack web developer currently living in Killeen, TX <br />
+          I hold importance to the fundamentials. The fundamentials open more
+          doors and allow you to easily learn a new programming language <br />
+          I have a great love for front end development as well as design that
+          has grown over time <br />
+        </p>
       </About>
     </>
   );

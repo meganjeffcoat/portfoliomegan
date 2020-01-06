@@ -118,7 +118,7 @@ const CurrentTwo = styled.div`
 
     div {
       width: 100%;
-      margin:0 0 5% 0;
+      margin: 0 0 5% 0;
     }
 
     p {
@@ -158,10 +158,15 @@ function CurrentProjects() {
         <div>
           <h2>Stampd</h2>
           <p>
-            Stampd allows you to keep track of your credentials. Your
-            institution will upload the credential where it will be held in the
-            blockchain. You can access your credential with your account and add
-            multiple email addresses that you may have your credentials under.
+            Stampd is a blockchain-based project that allows educational
+            institutions to permanently issue fully verified credentials that
+            are stamped to the Ethereum blockchain <br /> This was an eight week
+            project with six developers collaborating together Contributions
+            include design of the front end and front end code <br /> The
+            backbone of the project is blockchain. We hold the credentials in
+            the Ethereum blockchain and each member on the team contributed to
+            writing our own contracts to keep security in the project <br/>
+            React | React-Conflux | Styled-Components | Grommet | Apollo-boost | Node and Express | GraphQL | PostgreSQL | Web3
           </p>
           <a href="https://github.com/labs14-stampd">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
@@ -171,9 +176,7 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentOne>
-      <Space>
-        {" "}
-      </Space>
+      <Space> </Space>
       <CurrentTwo>
         <a
           className="visit"
@@ -184,8 +187,9 @@ function CurrentProjects() {
         <div>
           <h2>S&J Architects</h2>
           <p>
-            A responsive modern architecture website Built with HTML, CSS and
-            ES6 JavaScript
+            Built in one week to showcase mastery in fundamentals <br/>
+            Home page is mobile responsive <br/>
+            HTML | CSS | JavaScript
           </p>
           <a href="https://github.com/meganjeffcoat/User-Interface-Project-Week">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
@@ -195,9 +199,7 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentTwo>
-      <Space>
-        {" "}
-      </Space>
+      <Space> </Space>
       <CurrentOne>
         <a
           className="visit"
@@ -208,8 +210,8 @@ function CurrentProjects() {
         <div>
           <h2>Notes</h2>
           <p>
-            A place to keep notes and the ability to update and remove them Made
-            using React, Redux and Styled Components
+            A place to keep notes with the ability to update and remove them <br/>
+            React | Redux | Styled Components
           </p>
           <a href="https://github.com/meganjeffcoat/front-end-project-week">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
@@ -219,9 +221,7 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentOne>
-      <Space>
-        {" "}
-      </Space>
+      <Space> </Space>
       <CurrentTwo>
         <a
           className="visit"
@@ -233,9 +233,11 @@ function CurrentProjects() {
         <div>
           <h2>Safe Space</h2>
           <p>
-            Send yourself a positive text and brighten your day Built by a team
-            of five, my focus was on the backend Utilizing express node and
-            twillio for the messaging service
+            Safe Space allows the user to send them self a positive text to
+            brighten their day. <br/>  Built in one week by a team of
+            five <br /> Solely responsible for the back end portion of the project
+            Integrated Twilio to handle text messaging <br/>
+            React | Styled Components | Node and Express | Twilio | PostgreSQL | HTML | LESS
           </p>
           <a href="https://github.com/safespaceteam/safespacebackend">
             <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
@@ -245,9 +247,7 @@ function CurrentProjects() {
           </a>
         </div>
       </CurrentTwo>
-      <Space>
-        {" "}
-      </Space>
+      <Space> </Space>
     </Section>
   );
 }

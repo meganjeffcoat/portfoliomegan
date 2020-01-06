@@ -26,6 +26,7 @@ const Icons = styled.div`
     width: 50%;
     font-size: 1rem;
     justify-content: space-between;
+    margin-top: 3%;
     margin-left: 25%;
     margin-bottom: 3%;
   }
@@ -34,7 +35,6 @@ const Icons = styled.div`
 function Footer() {
   return (
     <Container>
-        <p>© Megan Jeffcoat | Design inspiration HTML5 UP</p>
       <Icons>
         {" "}
         <a href="https://github.com/meganjeffcoat">
