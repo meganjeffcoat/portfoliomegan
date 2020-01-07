@@ -107,11 +107,13 @@ const About = styled.section`
     flex-direction: column;
 
     img {
-      margin: 3% 4% 2.5% 4%;
+      margin: 3% 4% 2.5% 25%;
+      width: 50%;
     }
 
     p {
       margin: 2.5% 4% 3% 4%;
+      text-align: center;
     }
   }
 `;
