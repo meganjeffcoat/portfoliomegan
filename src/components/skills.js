@@ -154,7 +154,8 @@ function Skills() {
             <FontAwesomeIcon icon={faPython} color={"#21B2A6"} /> PYTHON
           </h2>
           <p>
-            Learned Python to become more proficient with algorithms and expand my code knowledge.
+            Learned Python to become more proficient with algorithms and expand
+            my code knowledge.
           </p>
         </Block1>
         <Block2>
@@ -162,8 +163,9 @@ function Skills() {
             <FontAwesomeIcon icon={faCode} color={"#21B2A6"} /> BLOCKCHAIN
           </h2>
           <p>
-            Primary focus of study has been on decentralized applications (DApp).
-            I have explaned my knowledge into coin mining as well to gain a better understanding of blockchain as a whole
+            Primary focus of study has been on decentralized applications
+            (DApp). I have explaned my knowledge into coin mining as well to
+            gain a better understanding of blockchain as a whole
           </p>
         </Block2>
       </Blocks>
