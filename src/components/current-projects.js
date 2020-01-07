@@ -160,12 +160,7 @@ function CurrentProjects() {
           <p>
             Stampd is a blockchain-based project that allows educational
             institutions to permanently issue fully verified credentials that
-            are stamped to the Ethereum blockchain <br /> This was an eight week
-            project with six developers collaborating together Contributions
-            include design of the front end and front end code <br /> The
-            backbone of the project is blockchain. We hold the credentials in
-            the Ethereum blockchain and each member on the team contributed to
-            writing our own contracts to keep security in the project <br/>
+            are stamped to the Ethereum blockchain <br />
             React | React-Conflux | Styled-Components | Grommet | Apollo-boost | Node and Express | GraphQL | PostgreSQL | Web3
           </p>
           <a href="https://github.com/labs14-stampd">
@@ -233,10 +228,7 @@ function CurrentProjects() {
         <div>
           <h2>Safe Space</h2>
           <p>
-            Safe Space allows the user to send them self a positive text to
-            brighten their day. <br/>  Built in one week by a team of
-            five <br /> Solely responsible for the back end portion of the project
-            Integrated Twilio to handle text messaging <br/>
+          Safe Space is a React-based Web Application that allows the user to send themselves positive and uplifting texts <br/>  
             React | Styled Components | Node and Express | Twilio | PostgreSQL | HTML | LESS
           </p>
           <a href="https://github.com/safespaceteam/safespacebackend">

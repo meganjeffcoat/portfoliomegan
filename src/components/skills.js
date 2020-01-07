@@ -142,7 +142,7 @@ function Skills() {
             <FontAwesomeIcon icon={faNodeJs} color={"#21B2A6"} /> NODE & EXPRESS
           </h2>
           <p>
-            Node and Express have been my primary focus for backend development.
+            Node and Express has been my primary focus for backend development.
             Continuing to grow my knowledge base and expand into other options
             for back end as well
           </p>
@@ -153,11 +153,18 @@ function Skills() {
           <h2>
             <FontAwesomeIcon icon={faPython} color={"#21B2A6"} /> PYTHON
           </h2>
+          <p>
+            Learned Python to become more proficient with algorithms and expand my code knowledge.
+          </p>
         </Block1>
         <Block2>
           <h2>
             <FontAwesomeIcon icon={faCode} color={"#21B2A6"} /> BLOCKCHAIN
           </h2>
+          <p>
+            Primary focus of study has been on decentralized applications (DApp).
+            I have explaned my knowledge into coin mining as well to gain a better understanding of blockchain as a whole
+          </p>
         </Block2>
       </Blocks>
     </Intro>

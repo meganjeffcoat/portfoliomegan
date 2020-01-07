@@ -85,7 +85,6 @@ const Arrow = styled.div`
 const About = styled.section`
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
   background-color: #21b2a6;
   color: #fbfbf8;
@@ -98,7 +97,10 @@ const About = styled.section`
   }
 
   p {
-    margin: 2% 10% 2% 2.5%;
+    margin: 4% 10% 2% 2.5%;
+    padding-top: 2%;
+    text-align: justify;
+
   }
 
   @media (max-width: 500px) {
