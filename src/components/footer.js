@@ -40,7 +40,7 @@ function Footer() {
         <a href="https://github.com/meganjeffcoat">
           <FontAwesomeIcon icon={faGithub} color={"#fbfbf8"} size="2x" />
         </a>
-        <a href="https://www.linkedin.com/in/megan-jeffcoat-b46b8287/">
+        <a href="https://www.linkedin.com/in/mjeffcoat/">
           <FontAwesomeIcon icon={faLinkedin} color={"#fbfbf8"} size="2x" />
         </a>
         <a href="https://twitter.com/_MeggieMae12">

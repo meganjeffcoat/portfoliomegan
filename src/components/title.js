@@ -135,7 +135,7 @@ function Title() {
               size="3x"
             />
           </a>
-          <a href="https://www.linkedin.com/in/megan-jeffcoat-b46b8287/">
+          <a href="https://www.linkedin.com/in/mjeffcoat/">
             <FontAwesomeIcon
               className="icon"
               icon={faLinkedin}
