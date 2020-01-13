@@ -21,6 +21,10 @@ const Section = styled.section`
     padding-top: 2%;
   }
 
+  @media (max-width: 800px) {
+    margin-top: -6%;
+  }
+
   @media (max-width: 500px) {
     margin-top: -5%;
 
@@ -52,6 +56,30 @@ const CurrentOne = styled.div`
     margin: 1.5%;
     color: #fbfbf8;
     padding-top: 3%;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+
+    .visit {
+      width: 100%;
+      height: 300px;
+      margin: 0;
+
+      img {
+        width: 100%;
+        height: 300px;
+      }
+    }
+
+    div {
+      width: 100%;
+      margin: 0 0 5% 0;
+      padding-top: 1%;
+    }
+    p {
+      margin: 0 1.5% 1.5% 1.5%;
+    }
   }
 
   @media (max-width: 500px) {
@@ -100,6 +128,30 @@ const CurrentTwo = styled.div`
     margin: 1.5%;
     color: #fbfbf8;
     padding-top: 3%;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+
+    .visit {
+      width: 100%;
+      height: 300px;
+      margin: 0;
+
+      img {
+        width: 100%;
+        height: 300px;
+      }
+    }
+
+    div {
+      width: 100%;
+      margin: 0 0 5% 0;
+    }
+
+    p {
+      margin: 0 1.5% 1.5% 1.5%;
+    }
   }
 
   @media (max-width: 500px) {

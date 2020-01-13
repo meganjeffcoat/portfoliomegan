@@ -13,6 +13,7 @@ const Container = styled.section`
   background-color: #31363073;
   color: #fbfbf8;
   padding-bottom: 5%;
+
 `;
 
 const Name = styled.div`
