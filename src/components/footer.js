@@ -22,6 +22,15 @@ const Icons = styled.div`
   justify-content: space-evenly;
   margin-left: 40%;
 
+  @media (max-width: 800px) {
+    width: 50%;
+    font-size: 1rem;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+  }
+
   @media (max-width: 500px) {
     width: 50%;
     font-size: 1rem;
