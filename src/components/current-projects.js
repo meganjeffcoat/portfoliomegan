@@ -23,6 +23,7 @@ const Section = styled.section`
 
   @media (max-width: 800px) {
     margin-top: -6%;
+    
   }
 
   @media (max-width: 500px) {
@@ -30,6 +31,7 @@ const Section = styled.section`
 
     h1 {
       padding-top: none;
+      font-size: 1.6rem;
     }
   }
 `;
@@ -88,7 +90,7 @@ const CurrentOne = styled.div`
     .visit {
       width: 100%;
       height: 250px;
-      margin: 0;
+      margin: 1% 0 0 0;
 
       img {
         width: 100%;
@@ -160,7 +162,7 @@ const CurrentTwo = styled.div`
     .visit {
       width: 100%;
       height: 250px;
-      margin: 0;
+      margin: 1% 0 0 0;
 
       img {
         width: 100%;
