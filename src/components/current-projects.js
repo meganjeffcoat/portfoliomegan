@@ -64,7 +64,7 @@ const CurrentOne = styled.div`
     .visit {
       width: 95%;
       height: 300px;
-      margin: 0 0 0 2.5%;
+      margin: 2.5% 0 0 2.5%;
 
       img {
         width: 100%;
@@ -136,7 +136,7 @@ const CurrentTwo = styled.div`
     .visit {
       width: 95%;
       height: 300px;
-      margin: 0 0 0 2.5%;
+      margin: 2.5% 0 0 2.5%;
 
       img {
         width: 100%;
@@ -181,6 +181,11 @@ const CurrentTwo = styled.div`
 
 const Space = styled.div`
   background-color: #2b343e;
+
+  @media (max-width: 800px) {
+    background-color: #21b2a6;
+    height: 20px;
+  }
 
   @media (max-width: 500px) {
     background-color: #21b2a6;
