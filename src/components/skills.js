@@ -24,6 +24,9 @@ const Intro = styled.section`
     font-size: 1.6rem;
   }
 
+  @media (max-width: 800px) {
+    margin-top: -3.4%;
+  }
 
   @media (max-width: 500px) {
     margin-top: -6%;
