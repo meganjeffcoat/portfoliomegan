@@ -62,9 +62,9 @@ const CurrentOne = styled.div`
     flex-direction: column;
 
     .visit {
-      width: 100%;
+      width: 95%;
       height: 300px;
-      margin: 0;
+      margin: 0 0 0 2.5%;
 
       img {
         width: 100%;
@@ -134,9 +134,9 @@ const CurrentTwo = styled.div`
     flex-direction: column;
 
     .visit {
-      width: 100%;
+      width: 95%;
       height: 300px;
-      margin: 0;
+      margin: 0 0 0 2.5%;
 
       img {
         width: 100%;
