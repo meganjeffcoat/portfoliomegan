@@ -103,6 +103,20 @@ const About = styled.section`
 
   }
 
+  @media (max-width: 800px) {
+    flex-direction: column;
+
+    img {
+      margin: 3% 4% 2.5% 40%;
+      width: 20%;
+    }
+
+    p {
+      margin: 2% 4% 4% 4%;
+      text-align: center;
+    }
+  }
+
   @media (max-width: 500px) {
     flex-direction: column;
 
