@@ -143,8 +143,8 @@ const About = styled.section`
     flex-direction: column;
 
     img {
-      margin: 3% 4% 2.5% 25%;
-      width: 50%;
+      margin: 3% 4% 2.5% 35%;
+      width: 30%;
     }
 
     p {
