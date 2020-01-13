@@ -13,6 +13,11 @@ const Container = styled.section`
   background-color: #31363073;
   color: #fbfbf8;
   padding-bottom: 5%;
+
+  @media (max-width: 800px) {
+    background-color: #313630BA;
+  }
+
 `;
 
 const Name = styled.div`
@@ -39,6 +44,17 @@ const Name = styled.div`
     font-weight: 800;
   }
 
+  @media (max-width: 800px) {
+    h1 {
+      width: 100%;
+      margin-left: 0;
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
   @media (max-width: 500px) {
     h1 {
       width: 100%;
@@ -59,6 +75,12 @@ const Icons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (max-width: 800px) {
+    .icon {
+      font-size: 1.8rem;
+    }
+  }
 
   @media (max-width: 500px) {
     .icon {
@@ -101,6 +123,20 @@ const About = styled.section`
     padding-top: 2%;
     text-align: justify;
 
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+
+    img {
+      margin: 3% 4% 0 40%;
+      width: 20%;
+    }
+
+    p {
+      margin: 1% 4% 5% 4%;
+      text-align: center;
+    }
   }
 
   @media (max-width: 500px) {

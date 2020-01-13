@@ -24,6 +24,10 @@ const Intro = styled.section`
     font-size: 1.6rem;
   }
 
+  @media (max-width: 800px) {
+    margin-top: -3.4%;
+  }
+
   @media (max-width: 500px) {
     margin-top: -6%;
   }
@@ -37,6 +41,14 @@ const Blocks = styled.div`
   p {
     padding: 1%;
     margin: 11% 7% 4% 7%;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+
+    p {
+      margin: 3%;
+    }
   }
 
   @media (max-width: 500px) {
@@ -55,6 +67,12 @@ const Block1 = styled.div`
   height: 300px;
   margin: 1.5% 1.5%;
 
+  @media (max-width: 800px) {
+    width: 95%;
+    height: 200px;
+    margin: 0 0 2.5% 2.5%;
+  }
+
   @media (max-width: 500px) {
     width: 99.5%;
     height: 200px;
@@ -68,6 +86,12 @@ const Block2 = styled.div`
   width: 50%;
   height: 300px;
   margin: 1.5% 1.5%;
+
+  @media (max-width: 800px) {
+    width: 95%;
+    height: 200px;
+    margin: 0 0 2.5% 2.5%;
+  }
 
   @media (max-width: 500px) {
     width: 99.5%;
@@ -83,6 +107,12 @@ const Block3 = styled.div`
   height: 300px;
   margin: 1.5% 1.5%;
 
+  @media (max-width: 800px) {
+    width: 95%;
+    height: 200px;
+    margin: 0 0 2.5% 2.5%;
+  }
+
   @media (max-width: 500px) {
     width: 99.5%;
     height: 200px;
@@ -96,6 +126,12 @@ const Block4 = styled.div`
   width: 50%;
   height: 300px;
   margin: 1.5% 1.5%;
+
+  @media (max-width: 800px) {
+    width: 95%;
+    height: 200px;
+    margin: 0 0 2.5% 2.5%;
+  }
 
   @media (max-width: 500px) {
     width: 99.5%;
