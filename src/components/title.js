@@ -14,6 +14,10 @@ const Container = styled.section`
   color: #fbfbf8;
   padding-bottom: 5%;
 
+  @media (max-width: 800px) {
+    background-color: #313630BA;
+  }
+
 `;
 
 const Name = styled.div`
@@ -40,6 +44,17 @@ const Name = styled.div`
     font-weight: 800;
   }
 
+  @media (max-width: 800px) {
+    h1 {
+      width: 100%;
+      margin-left: 0;
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
   @media (max-width: 500px) {
     h1 {
       width: 100%;
@@ -60,6 +75,12 @@ const Icons = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (max-width: 800px) {
+    .icon {
+      font-size: 1.8rem;
+    }
+  }
 
   @media (max-width: 500px) {
     .icon {
@@ -108,12 +129,12 @@ const About = styled.section`
     flex-direction: column;
 
     img {
-      margin: 3% 4% 2.5% 40%;
+      margin: 3% 4% 0 40%;
       width: 20%;
     }
 
     p {
-      margin: 2% 4% 4% 4%;
+      margin: 1% 4% 5% 4%;
       text-align: center;
     }
   }
