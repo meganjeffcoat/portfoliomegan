@@ -97,6 +97,7 @@ const Block2 = styled.div`
     width: 99.5%;
     height: 200px;
     margin: 0;
+    padding-bottom: 5%;
   }
 `;
 
@@ -137,6 +138,7 @@ const Block4 = styled.div`
     width: 99.5%;
     height: 200px;
     margin: 0;
+    padding-bottom: 5%;
   }
 `;
 
